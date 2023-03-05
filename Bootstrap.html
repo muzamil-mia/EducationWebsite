@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="Bootstrap.css">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Nunito&display=swap" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+    <style>
+        /* body{
+    margin: 0;
+    font-family: "Nunito",sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 400;
+    color: #666666;
+    text-align: left;
+    background-color: #fff;
+} */
+        .nav-item {
+            font-weight: bold;
+        }
+
+        #header img {
+            height: 400px;
+        }
+
+        .card {
+            border: none;
+        }
+
+        .btn {
+            border-radius: 30px;
+        }
+
+        .bg-primary {
+            background-color: #8B0000 !important;
+        }
+
+        .bg-secondary {
+            background-color: #B22222 !important;
+        }
+
+        #footer .text-primary {
+            color: #fff !important;
+        }
+
+        .text-primary {
+            color: #8B0000 !important;
+
+        }
+
+        .btn-primary {
+            background-color: #8B0000;
+            border: 1px solid #8B0000;
+        }
+
+        .btn-primary :hover {
+            background-color: black;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        .h1,
+        .h2,
+        .h3,
+        .h4,
+        .h5,
+        .h6 {
+            margin-bottom: 0.5rem;
+            font-family: "Handlee", cursive;
+            font-weight: bold;
+            line-height: 1.2;
+            color: #8B0000;
+        }
+
+        .btn-social {
+            background-color: #fff;
+            color: #8B0000;
+        }
+
+        .btn:hover {
+            background-color: black;
+            color: white;
+        }
+
+        .nav-link:hover {
+            color: #8B0000;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="41if9vGiF3L._SR600,315_PIWhiteStrip,BottomLeft,0,35_PIStarRatingFIVE,BottomLeft,360,-6_SR600,315_SCLZZZZZZZ_FMpng_BG255,255,255.png"
+                    style="height:35px; width: 36px;" alt="logo">
+            </a>
+            <button class="navbar-togler" type="button" data-bs-toggle="collapse"
+                data-bs-target="navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="d-flex" role="search">
+                    <input type="search" placeholder="Search" aria-label="Search" class="form-control me-2">
+                    <button class="btn btn-primary" type="submit">search</button>
+                </form>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active" aria-current="page">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Instructors
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#"></a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- //done with our navbar section -->
+
+    <section id="header">
+        <div class="container-fluid bg-primary px-0 px-md-5 p-5">
+            <div class="row align-items-center px-3">
+                <div class="col-lg-6 text-center text-lg-left">
+                    <h4 class="text-white mb-4 mt-5 mt-lg-0">Kids Learning Center</h4>
+                    <h1 class="display-3 font-weight-bold text-white">New Approach To Kids Learning</h1>
+                    <p class="text-white mb-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam autem omnis non quasi esse
+                        labore quam sed error maiores eaque!
+                    </p>
+                    <a href="#" class="btn mt-1 py-3 px-5" style="color:white; border:1px solid #fff">Learn More</a>
+                </div>
+                <div class="col-lg-6 text-center text-lg-right">
+                    <img src="proud-little-boy-with-glasses-graduation-cap.jpg" alt="" class="img-fluid mt-5"
+                        style="height:300px; width:500px">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluid pt-5">
+            <div class="container pb-3">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card d-flex flex-row bg-light shadow-sm border-top rounded mb-4 p-4">
+                            <img src="proud-little-boy-with-glasses-graduation-cap.jpg" alt="img"
+                                style="height:100px;width:100px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Play Ground</h5>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                    Repellendus, quod!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card d-flex flex-row bg-light shadow-sm border-top rounded mb-4 p-4">
+                            <img src="proud-little-boy-with-glasses-graduation-cap.jpg" alt="img"
+                                style="height:100px;width:100px">
+                            <div class="card-body">
+                                <h5 class="card-title">Play Ground</h5>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                    Repellendus, quod!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card d-flex flex-row bg-light shadow-sm border-top rounded mb-4 p-4">
+                            <img src="proud-little-boy-with-glasses-graduation-cap.jpg" alt="img"
+                                style="height:100px;width:100px">
+                            <div class="card-body">
+                                <h5 class="card-title">Play Ground</h5>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                    Repellendus, quod!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card d-flex flex-row bg-light shadow-sm border-top rounded mb-4 p-4">
+                            <img src="proud-little-boy-with-glasses-graduation-cap.jpg" alt="img"
+                                style="height:100px;width:100px">
+                            <div class="card-body">
+                                <h5 class="card-title">Play Ground</h5>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                    Repellendus, quod!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card d-flex flex-row bg-light shadow-sm border-top rounded mb-4 p-4">
+                            <img src="proud-little-boy-with-glasses-graduation-cap.jpg" alt="img"
+                                style="height:100px;width:100px">
+                            <div class="card-body">
+                                <h5 class="card-title">Play Ground</h5>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                    Repellendus, quod!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="card d-flex flex-row bg-light shadow-sm border-top rounded mb-4 p-4">
+                            <img src="proud-little-boy-with-glasses-graduation-cap.jpg" alt="img"
+                                style="height:100px;width:100px">
+                            <div class="card-body">
+                                <h5 class="card-title">Play Ground</h5>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                    Repellendus, quod!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Facilities start -->
+    <section>
+        <!-- class start -->
+        <div class="container-fluid pt-5">
+            <div class="container">
+                <div class="text-center pb-2">
+                    <p class="section-title px-5">
+                        <span class="px-2">Popular classes</span>
+                    </p>
+                    <h1 class="mb-4">Classes For Your Kids</h1>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 mb-5">
+                        <div class="card border-0 bg-light shadow-sm pb-2">
+                            <img class="card-img-top mb-2" src="national-cancer-institute-N_aihp118p8-unsplash.jpg"
+                                alt="">
+                            <div class="card-body text-center">
+                                <h4 class="card-title">Drawing Class</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
+                                    laudantium! Adipisci necessitatibus at voluptates in! Numquam fuga voluptas expedita
+                                    error!</p>
+                            </div>
+                            <div class="card-footer bg-transparent py-4 px-5">
+                                <div class="row border-bottom">
+                                    <div class="col-6 py-1 text-right border-right">
+                                        <strong>Age Of Kids</strong>
+                                    </div>
+                                    <div class="col-6 py-1">3-6 Years</div>
+                                </div>
+                                <div class="row border-bottom">
+                                    <div class="col-6 py-1 text-right border-right"><strong>Total Seats</strong>
+                                    </div>
+                                    <div class="col-6 py-1">40 Seats</div>
+                                </div>
+                                <div class="row border-bottom">
+                                    <div class="col-6 py-1 text-right border-right"><strong>Class Time</strong></div>
+                                    <div class="col-6 py-1">08:00 - 10:00</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6 py-1"><strong>Tution Fee</strong></div>
+                                    <div class="col-6 py-1">$290/Month</div>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-primary px-4 mx-auto mb-4">Join Now</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-5">
+                        <div class="card border-0 bg-light shadow-sm pb-2">
+                            <img class="card-img-top mb-2" src="kenny-eliason-1-aA2Fadydc-unsplash.jpg" alt="">
+                            <div class="card-body text-center">
+                                <h4 class="card- title">Language Learning</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
+                                    laudantium! Adipisci necessitatibus at voluptates in! Numquam fuga voluptas expedita
+                                    error!</p>
+                            </div>
+                            <div class="card-footer bg-transparent py-4 px-5">
+                                <div class="row border-bottom">
+                                    <div class="col-6 py-1 text-right border-right">
+                                        <strong>Age Of Kids</strong>
+                                    </div>
+                                    <div class="col-6 py-1">3-6 Years</div>
+                                </div>
+                                <div class="row border-bottom">
+                                    <div class="col-6 py-1 text-right border-right"><strong>Total Seats</strong>
+                                    </div>
+                                    <div class="col-6 py-1">40 Seats</div>
+                                </div>
+                                <div class="row border-bottom">
+                                    <div class="col-6 py-1 text-right border-right"><strong>Class Time</strong></div>
+                                    <div class="col-6 py-1">08:00 - 10:00</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6 py-1"><strong>Tution Fee</strong></div>
+                                    <div class="col-6 py-1">$290/Month</div>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-primary px-4 mx-auto mb-4">Join Now</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-5">
+                        <div class="card border-0 bg-light shadow-sm pb-2">
+                            <img class="card-img-top mb-2" src="national-cancer-institute-N_aihp118p8-unsplash.jpg"
+                                alt="">
+                            <div class="card-body text-center">
+                                <h4 class="card-title">Basic Science</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
+                                    laudantium! Adipisci necessitatibus at voluptates in! Numquam fuga voluptas expedita
+                                    error!</p>
+                            </div>
+                            <div class="card-footer bg-transparent py-4 px-5">
+                                <div class="row border-bottom">
+                                    <div class="col-6 py-1 text-right border-right">
+                                        <strong>Age Of Kids</strong>
+                                    </div>
+                                    <div class="col-6 py-1">3-6 Years</div>
+                                </div>
+                                <div class="row border-bottom">
+                                    <div class="col-6 py-1 text-right border-right"><strong>Total Seats</strong>
+                                    </div>
+                                    <div class="col-6 py-1">40 Seats</div>
+                                </div>
+                                <div class="row border-bottom">
+                                    <div class="col-6 py-1 text-right border-right"><strong>Class Time</strong></div>
+                                    <div class="col-6 py-1">08:00 - 10:00</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6 py-1"><strong>Tution Fee</strong></div>
+                                    <div class="col-6 py-1">$290/Month</div>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-primary px-4 mx-auto mb-4">Join Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- class end -->
+    </section>
+
+    <section>
+        <!-- Team Start -->
+        <div class="container-fluid pt-5">
+            <div class="container">
+                <div class="text-center pb-2">
+                    <p class="section-title px-5">
+                        <span class="px-2">Our Teachers</span>
+                    </p>
+                    <h1 class="mb-4">Meet Our Teachers</h1>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-3 text-center team mb-5">
+                        <div class="position-relative overflow-hidden mb-4" style="border-radius:100%">
+                            <img class="img-fluid w-100" src="javier-trueba-vFJNeWJAA2g-unsplash.jpg" alt="">
+
+                            <div
+                                class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+                            </div>
+
+                        </div>
+                        <h4>Jullie smith</h4>
+                        <i>Music Teacher</i>
+                    </div>
+                    <div class="col-md-6 col-lg-3 text-center team mb-5">
+                        <div class="position-relative overflow-hidden mb-4" style="border-radius:100%">
+                            <img class="img-fluid w-100" src="kenny-eliason-1-aA2Fadydc-unsplash.jpg" alt="">
+
+                            <div
+                                class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+                            </div>
+
+                        </div>
+                        <h4>John Doe</h4>
+                        <i>Language Teacher</i>
+                    </div>
+                    <div class="col-md-6 col-lg-3 text-center team mb-5">
+                        <div class="position-relative overflow-hidden mb-4" style="border-radius:100%">
+                            <img class="img-fluid w-100" src="linkedin-sales-solutions-NpyF7rjqmq4-unsplash.jpg" alt="">
+
+                            <div
+                                class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+                            </div>
+
+                        </div>
+                        <h4>Rose</h4>
+                        <i>Dance Teacher Teacher</i>
+                    </div>
+                    <div class="col-md-6 col-lg-3 text-center team mb-5">
+                        <div class="position-relative overflow-hidden mb-4" style="border-radius:100%">
+                            <img class="img-fluid w-100" src="javier-trueba-vFJNeWJAA2g-unsplash.jpg" alt="">
+
+                            <div
+                                class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
+                            </div>
+
+                        </div>
+                        <h4>Kate Smith</h4>
+                        <i>Art Teacher</i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+    </section>
+
+    <section id="footer">
+        <div class="container-fluid bg-secondary text-white py-5 mt-5 px-sm-3 px-md-5">
+            <div class="row pt-5">
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <a href="#" class="navbar-brand font-weight-bold text-primary m-0 mb-4 p-0"><i
+                            class="flaticon-043-teddy-bear"></i><h3 class="text-primary">MyAcademy</h3></a>
+                    <p class="my-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe, est odit eaque
+                        suscipit possimus adipisci nesciunt voluptatibus veniam similique. Accusantium.</p>
+                    <div class="d-flex justify-content-start mt-4">
+                        <a href=""
+                            class="btn btn-social rounded-circle text-center mx-2 px-0" style="width:38px"><i
+                                class="fab fa-twitter"></i></a>
+                        <a href=""
+                            class="btn btn-social rounded-circle text-center mx-2 px-0" style="width:38px"><i
+                                class="fab fa-facebook"></i></a>
+                        <a href=""
+                            class="btn btn-social rounded-circle text-center mx-2 px-0" style="width:38px"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href=""
+                            class="btn btn-social rounded-circle text-center mx-2 px-0" style="width:38px"><i
+                                class="fab fa-instagram"></i></a>
+                            </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <h3 class="text-primary mb-4">Get In Touch</h3>
+                    <div class="d-flex">
+                        <h4 class="fa fa-map marker-alt text-primary"></h4>
+                        <div class="px-3">
+                            <h5 class="text-white">Address</h5>
+                            <p>Anantnag</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <h4 class="fa fa-envelope marker-alt text-primary"></h4>
+                        <div class="px-3">
+                            <h5 class="text-white">Email</h5>
+                            <p>webdeveloper@098</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <h4 class="fa fa-phone marker-alt text-primary"></h4>
+                        <div class="px-3">
+                            <h5 class="text-white">Phone</h5>
+                            <p>7889760564</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <h3 class="text-primary mb-4">Quick lines</h3>
+                    <div class="d-flex flex-column justify-content-start">
+                        <a href="#" class="text-white text-decoration-none mb-2"><i class="fa fa-angle-right mx-2"></i>Home</a>
+                        <a href="#" class="text-white text-decoration-none mb-2"><i class="fa fa-angle-right mx-2"></i>About</a>
+                        <a href="#" class="text-white text-decoration-none mb-2"><i class="fa fa-angle-right mx-2"></i>Classes</a>
+                        <a href="#" class="text-white text-decoration-none mb-2"><i class="fa fa-angle-right mx-2"></i>Teachers</a>
+                        <a href="#" class="text-white text-decoration-none mb-2"><i class="fa fa-angle-right mx-2"></i>Blogs</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <h3 class="text-primary mb-4">Newsletter</h3>
+                    <form action="">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="exampleFromControlInput1"
+                                placeholder="Your Name">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="exampleFromControlInput1"
+                                placeholder="Your Email">
+                        </div>
+                        <div>
+                            <button class="btn btn-primary btn-block border-0 py-3">Submit Now</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="container-fluid pt-5" style="border-top:1px solid rgba(23,162,184,0.2)">
+            <p class="m-0 text-center text-white">&copy; <a href="#">MyAcademy</a>All Rights Reserved.Designed By <a href="#" class="text-primary font-weight-bold" target="_blank">MuzamilHussain</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer End -->
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
